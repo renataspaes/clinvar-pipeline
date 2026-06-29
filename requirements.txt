@@ -1,0 +1,24 @@
+# Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
+
+apache-airflow-providers-databricks==7.13.0
+apache-airflow-providers-amazon==9.26.0
+apache-airflow-providers-common-sql==1.32.0
+
+# dbt
+dbt-databricks==1.11.7
+
+# Cosmos (dbt + Airflow)
+astronomer-cosmos==1.14.1
+
+# Data libs
+pandas==2.1.2
+pyarrow==16.1.0
+
+# HTTP
+requests==2.33.1
+
+# AWS
+boto3==1.42.97
+smart_open==7.6.0
+
+databricks-sql-connector==4.1.1
