@@ -155,11 +155,6 @@ astro dev start
 - Dashboards analíticos em Power BI ou Tableau sobre a camada Gold
 - Migração para versões pagas das ferramentas para uso em produção
 
----
-
-## Documentação
-
-O relatório completo do TCC está disponível em [`docs/TCC_Renata_Paes_2026.pdf`](docs/TCC_Renata_Paes_2026.pdf)
 
 ---
 
