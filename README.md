@@ -77,7 +77,7 @@ fornecidos (mínimo 1 estrela no sistema ClinVar)
 - Traits: campos nulos padronizados como `NOT PROVIDED`
 
 ### 🥇 Gold
-Modelagem dimensional Star Schema para suporte a consultas analíticas 
+Modelagem dimensional Star Schema adaptada para suporte a consultas analíticas 
 e ferramentas de BI. Chaves substitutas geradas via SHA-256.
 
 | Tabela | Tipo | Descrição |
