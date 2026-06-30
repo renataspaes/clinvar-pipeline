@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, date
 import boto3
 
-def is_first_friday(date_str):
+def is_first_thursday(date_str):
     """
     Verifica se a data fornecida (YYYY-MM-DD) é a primeira quinta-feira do mês.
     """
@@ -50,7 +50,7 @@ def get_latest_vcv_clinvar_data():
                 print("Arquivo não encontrado.")
                 return
 
-            if not is_first_friday(target_data):
+            if not is_first_thursday(target_data):
                 print(f"A data {target_data} não é da primeira quinta-feira do mês. Abortando.")
                 return
 
